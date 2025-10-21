@@ -6,7 +6,7 @@ img {
     transition: 2s;
 }
 img:hover {
-    transform: rotate(100000turn);
+    transform: rotate(2turn);
 }
 div {
     text-align: center;
@@ -80,4 +80,5 @@ button:hover {
     to {
         transform: translateX(-50%);
     }
+
 }
