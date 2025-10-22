@@ -5,6 +5,12 @@ img {
     margin-right: auto;
     transition: 2s;
 }
+<<<<<<< HEAD
+=======
+img:hover {
+    transform: rotate(2turn);
+}
+>>>>>>> 2312863a3c2e19153a8765d1e0b96f5e20be5048
 div {
     text-align: center;
 }
@@ -82,4 +88,5 @@ p {
     to {
         transform: translateX(-50%);
     }
+
 }
