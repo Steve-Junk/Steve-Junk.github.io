@@ -1,24 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>kasunperera123</title>
-	<link rel="icon" type="image" href="laoda.jpg">
+	<title>Designing for Web Accessibility</title>
+	<link rel="icon" type="image" href="images/laoda.jpg">
 	<link rel="stylesheet" href="csfile.css">
-	<script>
-		function changeText(button){
-			button.innerText = "kasun perera"
-		}
-	</script>
+	<script src="jsfile.js"></script>
 </head>
 <div class="marquee-section">
     <div class="marquee-div">
-        <div class="marquee">冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; 冰红茶 &bull; </div>
+        <div class="marquee"> Designing for Web Accessibility &bull; Designing for Web Accessibility &bull; Designing for Web Accessibility &bull; Designing for Web Accessibility &bull; Designing for Web Accessibility &bull; Designing for Web Accessibility &bull; Designing for Web Accessibility &bull; Designing for Web Accessibility &bull; Designing for Web Accessibility &bull; Designing for Web Accessibility &bull; Designing for Web Accessibility &bull;</div>
     </div>
 </div>
 <body>
-	<h1>welcome to kasun perera fan club</h1>
-	<h2>k</h2>
-	<p>This paragraph </p>
-	<button onclick="changeText(this)">click</button>
-	<img src="laoda.jpg" alt="ni hao" style="width:123px;height:175px;">
+	<h1>Designing for Web Accessibility</h1>
+	<h2>Provide sufficient contrast between foreground and background</h2>
+	<p>Foreground text needs to have sufficient contrast with background colors. This includes text on images, background gradients, buttons, and other elements. This does not apply for logos, or incidental text, such as text that happens to be in a photograph. The links below provide more information on the minimum contrast ratio as required by the WCAG and how to check contrast. “Contrast ratio” is a short version of the more technically correct term “luminance contrast ratio”.</p>
+	<img src="images/contrastratio.PNG" style="width:615px;height:191px">
+	<h2>Don’t use colour alone to convey information</h2>
+	<p>While color can be useful to convey information, color should not be the only way information is conveyed. When using color to differentiate elements, also provide additional identification that does not rely on color perception. For example, use an asterisk in addition to color to indicate required form fields, and use labels to distinguish areas on graphs.</p>
+	<img src="images/colouronly.PNG" style="width:615px;height:380px">
+	<h2>Ensure that interactive elements are easy to identify</h2>
+	<p>Provide distinct styles for interactive elements, such as links and buttons, to make them easy to identify. For example, change the appearance of links on mouse hover, keyboard focus, and touch-screen activation. Ensure that styles and naming for interactive elements are used consistently throughout the website.</p>
+	<img src="images/interactive.PNG" style="width:615px;height:250px">
+	<h2>Provide clear and consistent navigation options</h2>
+	<p>Ensure that navigation across pages within a website has consistent naming, styling, and positioning. Provide more than one method of website navigation, such as a site search or a site map. Help users understand where they are in a website or page by providing orientation cues, such as breadcrumbs and clear headings.</p>
+	<h2>Ensure that form elements include clearly associated labels</h2>
+	<p>Ensure that all fields have a descriptive label adjacent to the field. For left-to-right languages, labels are usually positioned to the left or above the field, except for checkboxes and radio buttons where they are usually to the right. Avoid having too much space between labels and fields.</p>
+	<img src="images/labels.PNG" style="width:615px;height:250px">
+	<h2>Provide easily identifiable feedback</h2>
+	<p>Provide feedback for interactions, such as confirming form submission, alerting the user when something goes wrong, or notifying the user of changes on the page. Instructions should be easy to identify. Important feedback that requires user action should be presented in a prominent style.</p>
+	<img src="images/errors.PNG" style="width:615px;height:250px">
+	<h2>Use headings and spacing to group related content</h2>
+	<p>Use whitespace and proximity to make relationships between content more apparent. Style headings to group content, reduce clutter, and make it easier to scan and understand.</p>
+	<img src="images/spacing.PNG" style="width:615px;height:250px">
+	<h2>Create designs for different viewport sizes</h2>
+	<p>Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure that text size and line width are set to maximize readability and legibility.</p>
+	<img src="images/viewport.PNG" style="width:615px;height:380px">
+	<h2>Include image and media alternatives in your design</h2>
+	<p>Provide a place in your design for alternatives for images and media. For example, you might need:<br>
+
+   &bull; Visible links to transcripts of audio<br>
+   &bull;  Visible links to audio described versions of videos<br>
+   &bull;  Text along with icons and graphical buttons<br>
+   &bull;  Captions and descriptions for tables or complex graphs<br>
+
+Work with content authors and developers to provide alternatives for non-text content.</p>
+	<img src="images/alttext.PNG" style="width:615px;height:340px">
+	<h2>Provide controls for content that starts automatically</h2>
+	<p>Provide visible controls to allow users to stop any animations or auto-playing sound. This applies to carousels, image sliders, background sound, and videos.</p>
+	<img src="images/playback.PNG" style="width:615px;height:250px">
 </html>

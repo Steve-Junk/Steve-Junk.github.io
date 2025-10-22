@@ -5,16 +5,13 @@ img {
     margin-right: auto;
     transition: 2s;
 }
-img:hover {
-    transform: rotate(100000turn);
-}
 div {
     text-align: center;
 }
 html {
-    font-family: 'Comic Sans MS', 'Trebuchet MS';
-    background-color: #000000;
-    color: whitesmoke;
+    font-family: 'arial', 'Comic Sans MS';
+    background-color: #FFFFFF;
+    color: black;
     text-align: center;
 }
 button {
@@ -39,6 +36,11 @@ button:hover {
     transform: translateY(-0.25em);
     cursor: pointer;
 }
+
+p {
+  max-width: 1228px;
+  margin: 0 auto;
+}
 .wrapper {
     max-width: 100%;
     overflow: hidden;
@@ -59,7 +61,7 @@ button:hover {
 
 .marquee-div {
     position: absolute;
-    animation: move-left-to-right linear 12.5s infinite;
+    animation: move-left-to-right linear 6s infinite;
 }
 
 /* use this one to move from left to right direction */
